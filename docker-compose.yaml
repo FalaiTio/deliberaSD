@@ -1,0 +1,23 @@
+version: "3.7"
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: delibSD_front
+    ports:
+      - "81:8080"
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+      - ./var/log/node:/root/.npm/_logs/
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+      - VIRTUAL_HOST=delibera.local
+      - VIRTUAL_PORT=8080
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

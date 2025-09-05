@@ -15,6 +15,7 @@ services:
       - CHOKIDAR_USEPOLLING=true
       - VIRTUAL_HOST=delibera.local
       - VIRTUAL_PORT=8080
+      - NODE_ENV=development
     networks:
       - app-network
 

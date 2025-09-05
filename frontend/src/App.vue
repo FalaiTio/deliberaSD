@@ -67,7 +67,6 @@
 
   <!-- Conteúdo Principal -->
   <main class="pt-20 pb-3">
-    Aqui...
     <router-view/>
   </main>
 

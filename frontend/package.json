@@ -9,41 +9,41 @@
     "prod": "serve -s dist -l 8080"
   },
   "dependencies": {
-    "@headlessui/vue": "^1.7.12",
-    "@heroicons/vue": "^2.0.16",
-    "axios": "^1.4.0",
-    "core-js": "^3.8.3",
-    "dotenv": "^16.0.3",
+    "@headlessui/vue": "^1.7.23",
+    "@heroicons/vue": "^2.2.0",
+    "axios": "^1.11.0",
+    "core-js": "^3.45.1",
+    "dotenv": "^17.2.2",
     "http-serve": "^1.0.1",
-    "pinia": "^3.0.3",
     "register-service-worker": "^1.7.2",
     "stream-browserify": "^3.0.0",
-    "vue": "^3.2.13",
+    "vue": "^3.5.21",
     "vue-class-component": "^8.0.0-0",
     "vue-property-decorator": "^9.1.2",
-    "vue-router": "^4.0.3",
+    "vue-router": "^4.5.1",
     "vue-signature-pad": "^3.0.2",
-    "vue-sweetalert2": "^5.0.5",
-    "vuex": "^4.0.0"
+    "vue-sweetalert2": "^5.0.11",
+    "vuex": "^4.1.0"
   },
   "devDependencies": {
-    "@tailwindcss/forms": "^0.5.3",
-    "@typescript-eslint/eslint-plugin": "^5.4.0",
-    "@typescript-eslint/parser": "^5.4.0",
-    "@vue/cli-plugin-babel": "~5.0.0",
-    "@vue/cli-plugin-eslint": "~5.0.0",
-    "@vue/cli-plugin-pwa": "~5.0.0",
-    "@vue/cli-plugin-router": "~5.0.0",
-    "@vue/cli-plugin-typescript": "~5.0.0",
-    "@vue/cli-plugin-vuex": "~5.0.0",
-    "@vue/cli-service": "~5.0.0",
-    "@vue/eslint-config-typescript": "^9.1.0",
-    "autoprefixer": "^10.4.14",
-    "eslint": "^7.32.0",
-    "eslint-plugin-vue": "^8.7.1",
-    "postcss": "^8.4.21",
-    "tailwindcss": "^3.2.7",
-    "typescript": "~4.5.5"
+    "@tailwindcss/forms": "^0.5.10",
+    "@tailwindcss/postcss": "^4.1.13",
+    "@typescript-eslint/eslint-plugin": "^8.42.0",
+    "@typescript-eslint/parser": "^8.42.0",
+    "@vue/cli-plugin-babel": "~5.0.9",
+    "@vue/cli-plugin-eslint": "~5.0.9",
+    "@vue/cli-plugin-pwa": "~5.0.9",
+    "@vue/cli-plugin-router": "~5.0.9",
+    "@vue/cli-plugin-typescript": "~5.0.9",
+    "@vue/cli-plugin-vuex": "~5.0.9",
+    "@vue/cli-service": "~5.0.9",
+    "@vue/eslint-config-typescript": "^14.6.0",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.34.0",
+    "eslint-plugin-vue": "^10.4.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.13",
+    "typescript": "~5.9.2"
   },
   "eslintConfig": {
     "root": true,
@@ -56,7 +56,7 @@
       "@vue/typescript/recommended"
     ],
     "parserOptions": {
-      "ecmaVersion": 2020
+      "ecmaVersion": "latest"
     },
     "rules": {}
   },

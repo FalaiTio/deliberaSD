@@ -3,8 +3,7 @@ FROM node:19
 WORKDIR /app
 COPY ./frontend/ /app
 
-RUN npm install -g @vue/cli
-RUN npm install
+RUN npm install --legacy-peer-deps
 
 EXPOSE 8080
 

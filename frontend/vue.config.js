@@ -1,5 +1,8 @@
-const {defineConfig} = require('@vue/cli-service')
+const { defineConfig } = require('@vue/cli-service');
+const path = require('path');
+
 module.exports = defineConfig({
+    lintOnSave: false,
     transpileDependencies: true,
     pwa: {
         name: "DeliberaJá SuportDOC",
@@ -143,15 +146,15 @@ module.exports = defineConfig({
     },
     configureWebpack: {
         resolve: {
-            extensions: ['.js', '.vue', '.json', '.ts'], // Garante resolução de .vue e .ts
+            extensions: ['.js', '.vue', '.json', '.ts'],
             alias: {
-                '@': require('path').resolve(__dirname, 'src') // Reforça o alias @
+                '@': path.resolve(__dirname, 'src')
             },
             fallback: {
                 'stream': require.resolve('stream-browserify')
             }
         }
     }
-})
+});
 
 process.env.VUE_APP_VERSION = require('./package.json').version;

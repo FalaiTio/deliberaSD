@@ -1,0 +1,86 @@
+'Log files:
+/root/.npm/_logs/2025-09-04T23_35_37_492Z-debug-0.log
+
+# npm resolution error report
+
+While resolving: @typescript-eslint/eslint-plugin@5.62.0
+Found: eslint@9.10.0
+node_modules/eslint
+  peer eslint@"^6.0.0 || ^7.0.0 || >=8.0.0" from @eslint-community/eslint-utils@4.8.0
+  node_modules/@eslint-community/eslint-utils
+    @eslint-community/eslint-utils@"^4.2.0" from @typescript-eslint/utils@5.62.0
+    node_modules/@typescript-eslint/eslint-plugin/node_modules/@typescript-eslint/utils
+      @typescript-eslint/utils@"5.62.0" from @typescript-eslint/eslint-plugin@5.62.0
+      node_modules/@typescript-eslint/eslint-plugin
+        peer @typescript-eslint/eslint-plugin@"^5.0.0" from @vue/eslint-config-typescript@9.1.0
+        node_modules/@vue/eslint-config-typescript
+          dev @vue/eslint-config-typescript@"^9.1.0" from the root project
+        dev @typescript-eslint/eslint-plugin@"^5.4.0" from the root project
+    @eslint-community/eslint-utils@"^4.2.0" from @typescript-eslint/utils@5.62.0
+    node_modules/@typescript-eslint/type-utils/node_modules/@typescript-eslint/utils
+      @typescript-eslint/utils@"5.62.0" from @typescript-eslint/type-utils@5.62.0
+      node_modules/@typescript-eslint/type-utils
+        @typescript-eslint/type-utils@"5.62.0" from @typescript-eslint/eslint-plugin@5.62.0
+        node_modules/@typescript-eslint/eslint-plugin
+          peer @typescript-eslint/eslint-plugin@"^5.0.0" from @vue/eslint-config-typescript@9.1.0
+          node_modules/@vue/eslint-config-typescript
+            dev @vue/eslint-config-typescript@"^9.1.0" from the root project
+          dev @typescript-eslint/eslint-plugin@"^5.4.0" from the root project
+    @eslint-community/eslint-utils@"^4.2.0" from eslint@9.10.0
+  peer eslint@"*" from @typescript-eslint/type-utils@5.62.0
+  node_modules/@typescript-eslint/type-utils
+    @typescript-eslint/type-utils@"5.62.0" from @typescript-eslint/eslint-plugin@5.62.0
+    node_modules/@typescript-eslint/eslint-plugin
+      peer @typescript-eslint/eslint-plugin@"^5.0.0" from @vue/eslint-config-typescript@9.1.0
+      node_modules/@vue/eslint-config-typescript
+        dev @vue/eslint-config-typescript@"^9.1.0" from the root project
+      dev @typescript-eslint/eslint-plugin@"^5.4.0" from the root project
+  peer eslint@">=7.5.0" from @vue/cli-plugin-eslint@5.0.9
+  node_modules/@vue/cli-plugin-eslint
+    dev @vue/cli-plugin-eslint@"~5.0.0" from the root project
+  peer eslint@">=5" from eslint-utils@3.0.0
+  node_modules/eslint-plugin-vue/node_modules/eslint-utils
+    eslint-utils@"^3.0.0" from eslint-plugin-vue@8.7.1
+    node_modules/eslint-plugin-vue
+      peer eslint-plugin-vue@"^8.0.1" from @vue/eslint-config-typescript@9.1.0
+      node_modules/@vue/eslint-config-typescript
+        dev @vue/eslint-config-typescript@"^9.1.0" from the root project
+      dev eslint-plugin-vue@"^8.7.1" from the root project
+  peerOptional eslint@">= 6" from fork-ts-checker-webpack-plugin@6.5.3
+  node_modules/fork-ts-checker-webpack-plugin
+    fork-ts-checker-webpack-plugin@"^6.4.0" from @vue/cli-plugin-typescript@5.0.9
+    node_modules/@vue/cli-plugin-typescript
+      dev @vue/cli-plugin-typescript@"~5.0.0" from the root project
+  peer eslint@">=6.0.0" from vue-eslint-parser@8.3.0
+  node_modules/vue-eslint-parser
+    vue-eslint-parser@"^8.0.0" from @vue/eslint-config-typescript@9.1.0
+    node_modules/@vue/eslint-config-typescript
+      dev @vue/eslint-config-typescript@"^9.1.0" from the root project
+    vue-eslint-parser@"^8.0.1" from eslint-plugin-vue@8.7.1
+    node_modules/eslint-plugin-vue
+      peer eslint-plugin-vue@"^8.0.1" from @vue/eslint-config-typescript@9.1.0
+      node_modules/@vue/eslint-config-typescript
+        dev @vue/eslint-config-typescript@"^9.1.0" from the root project
+      dev eslint-plugin-vue@"^8.7.1" from the root project
+  dev eslint@"^9.10.0" from the root project
+
+Could not resolve dependency:
+peer eslint@"^6.0.0 || ^7.0.0 || ^8.0.0" from @typescript-eslint/eslint-plugin@5.62.0
+node_modules/@typescript-eslint/eslint-plugin
+  peer @typescript-eslint/eslint-plugin@"^5.0.0" from @vue/eslint-config-typescript@9.1.0
+  node_modules/@vue/eslint-config-typescript
+    dev @vue/eslint-config-typescript@"^9.1.0" from the root project
+  dev @typescript-eslint/eslint-plugin@"^5.4.0" from the root project
+
+Conflicting peer dependency: eslint@8.57.1
+node_modules/eslint
+  peer eslint@"^6.0.0 || ^7.0.0 || ^8.0.0" from @typescript-eslint/eslint-plugin@5.62.0
+  node_modules/@typescript-eslint/eslint-plugin
+    peer @typescript-eslint/eslint-plugin@"^5.0.0" from @vue/eslint-config-typescript@9.1.0
+    node_modules/@vue/eslint-config-typescript
+      dev @vue/eslint-config-typescript@"^9.1.0" from the root project
+    dev @typescript-eslint/eslint-plugin@"^5.4.0" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.

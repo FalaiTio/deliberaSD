@@ -1,0 +1,22 @@
+'Log files:
+/root/.npm/_logs/2025-09-04T23_38_29_256Z-debug-0.log
+
+# npm resolution error report
+
+While resolving: DeliberaJa-SuportDOC@1.0.0
+Found: @vue/eslint-config-typescript@9.1.0
+node_modules/@vue/eslint-config-typescript
+  dev @vue/eslint-config-typescript@"^14.6.0" from the root project
+
+Could not resolve dependency:
+dev @vue/eslint-config-typescript@"^14.6.0" from the root project
+
+Conflicting peer dependency: eslint-plugin-vue@10.4.0
+node_modules/eslint-plugin-vue
+  peer eslint-plugin-vue@"^9.28.0 || ^10.0.0" from @vue/eslint-config-typescript@14.6.0
+  node_modules/@vue/eslint-config-typescript
+    dev @vue/eslint-config-typescript@"^14.6.0" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.
